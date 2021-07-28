@@ -48,7 +48,7 @@ La structure normale du fichier est la suivante:
     ...
 }
 ```
-[image d'exemple](/images/img2.png)
+![image d'exemple](/images/img2.png)
 
 Si jamais vous avez besoin de multiple line à la place d'une seule ligne de texte, vous pouvez les mettre dans une liste:
 ```json
@@ -65,4 +65,4 @@ Si jamais vous avez besoin de multiple line à la place d'une seule ligne de tex
 }
 ```
 
-[image d'exemple](/images/img3.png)
+![image d'exemple](/images/img3.png)
