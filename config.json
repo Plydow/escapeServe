@@ -1,0 +1,49 @@
+{
+    "1": {
+        "title": "My Password",
+        "text": "Trouver le mot de passe pour continuer :",
+        "result": "PlydowIsTheBest"
+    },
+    "2": {
+        "title": "Magic",
+        "text": [
+            "Mon premier est ce que donne le roi à ces esclaves",
+            "Mon deuxième est la neuvième lettre de l'alphabet",
+            "Mon troisième est une tresse",
+            "Mon quatrième se regarde sur une montre",
+            "Mon tout va avec un clavier",
+            "Qui suis-je ?"
+        ],
+        "result": "ordinateur"
+    },
+    "3": {
+        "title": "Image Recovery",
+        "text": "Mot de Passe :",
+        "result": "ProgrammingLife"
+    },
+    "4": {
+        "title": "Remove Safely",
+        "text": "Code :",
+        "result": "WikipediaKnowledge"
+    },
+    "5": {
+        "title": "Numbered Encryption",
+        "text": "Clé :",
+        "result": "PASSWORD"
+    },
+    "6": {
+        "title": "Rickroll",
+        "text": "Code :",
+        "result": "SpeedWithInternetExplorer"
+    },
+    "7": {
+        "title": "Balloon",
+        "text": "Mot de Passe :",
+        "result": "DebuggingWithPrint"
+    },
+    "8": {
+        "title": "Invisible",
+        "text": "Code :",
+        "result": "zelda"
+    }
+}

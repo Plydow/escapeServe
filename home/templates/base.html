@@ -1,0 +1,46 @@
+{% load static %}
+{% load utils %}
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+
+  <title>Escape Game</title>
+  <meta name="description" content="Escape Game">
+  <meta name="author" content="Plydow">
+
+  <link rel="stylesheet" type='text/css' href="{% static 'main.css' %}">
+
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to the Escape Game !</h1>
+  </header>
+  <content>
+    <form class="box" method="post" action="">
+      {% csrf_token %}
+      <h5>{{title}}</h5>
+      {% if text|get_type:'list' %}
+          <p>
+          {% for line in text %}
+            {{line}}<br/>
+          {% endfor %}
+          </p>
+      {% else %}
+          <p>{{text}}</p>
+      {% endif %}
+      <div class='val'>
+        {% if error_flag %}
+          <div class="error">
+            <p>Invalid Password</p>
+          </div>
+        {% endif %}
+        <input type="text" class="entry" placeholder="Password" name="{{result_var}}" autocomplete="off">
+        <input class='button' type='submit' value='Submit'>
+      </div>
+    </form>
+  </content>
+</body>
+</html>
